@@ -1,0 +1,29 @@
+:root {
+    --gradient-color: radial-gradient(circle at center, aqua 50%, black 100%);
+}
+.item{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 5px 5px 5px gray;
+    background: var(--gradient-color);
+}
+#arr_cont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.underline{
+    border-bottom: 2px solid black;
+}
+.item-wrapper{
+    width: 100%;
+    height: 120px;
+}
+.curved-left{
+    border-bottom-left-radius: 15px;
+}
+.curved-right{
+    border-bottom-right-radius: 15px;
+}
